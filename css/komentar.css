@@ -1,0 +1,205 @@
+/* Navbar style */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #9e7481; /* Warna latar belakang navbar */
+    overflow: hidden;
+    font-family: helvetica;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 10px;
+    float: left;
+    font-size: 10px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white; /* Warna teks navbar */
+    padding: 10px;
+    font-weight: bold;
+    float: left;
+}
+
+.navbar li a:hover {
+    color: #b9a3aa; /* Warna teks saat dihover */
+}
+
+/* Responsive Navbar */
+@media screen and (max-width: 600px) {
+    .navbar {
+        text-align: center;
+    }
+
+    .navbar li {
+        display: block;
+        margin: 0;
+    }
+}
+
+
+.daftar-foto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 20px;
+}
+
+.container-gambar {
+    position: relative;
+    font-family: helvetica;
+}
+
+.deskripsi {
+    max-width: 400px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-family: helvetica;
+}
+
+.container-gambar-img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    width: 100%; /* Menjadikan lebar 100% */
+    height: auto; /* Menyesuaikan tinggi agar tidak terdistorsi */
+    object-fit: cover; /* Memastikan gambar memenuhi kotak tanpa terdistorsi */
+}
+
+
+
+    .container-gambar p {
+        text-align: center; /* Pusatkan konten secara horizontal */
+        font-size: 20px;
+        
+
+    }
+
+    .container-gambar a {
+        display: inline-block;
+        margin: 5px;
+        padding: 8px 15px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #944E63; /* Sesuaikan warna latar belakang sesuai kebutuhan */
+        border-radius: 5px;
+    }
+
+    .container-gambar a:hover {
+        background-color: #9e7481; /* Sesuaikan warna latar belakang hover sesuai kebutuhan */
+    }
+
+    /* Gaya untuk tombol */
+    .tombol {
+        text-align: center; /* Pusatkan tombol secara horizontal */
+        margin-top: 10px; /* Jarak atas dari elemen sebelumnya */
+    }
+
+    .tombol p {
+        margin: 0; /* Hilangkan margin default pada paragraf */
+    }
+
+    .tombol a {
+        display: inline-block;
+        margin: 5px;
+        padding: 8px 15px;
+        text-decoration: none;
+        color: #fff;
+    background-color:#944E63;
+        border-radius: 5px;
+    }
+
+    .tombol a:hover {
+        background-color:#944E63; /* Warna latar belakang tombol saat dihover */
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #fafafa;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    form {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    table {
+        width: 100%;
+        margin-bottom: 15px;
+        border-bottom-style:solid;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    input[type="submit"] {
+        background-color: #944E63;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #9e7481;
+    }
+
+    .postingan tr td {
+        text-align: center;
+        
+    }
+
+    .waktu {
+        font-size: 9px;
+    }
+
+    
+    .navbar li h2 {
+        font-size: 10px;
+        color: white;
+    }
+
+    .navbar2 li{
+        float: left;
+    }
